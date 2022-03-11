@@ -1,5 +1,5 @@
+import React from 'react';
 import { Table } from 'antd';
-import React, { useState } from 'react';
 
 const DataTable = ({ data, columns }) => (
   <Table columns={columns} dataSource={data} />

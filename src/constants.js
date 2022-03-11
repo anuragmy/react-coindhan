@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 export const MARKET_DATA = [
   {
@@ -2361,15 +2361,6 @@ export const columnsMarket = [
   {
     title: 'Markets',
     dataIndex: 'name',
-    filters: [
-      {
-        text: 'btc',
-        value: 'BTC',
-      },
-    ],
-
-    filterSearch: true,
-    onFilterSearch: (input, record) => record.name.includes(input),
   },
   {
     title: 'Min. Order Size',
