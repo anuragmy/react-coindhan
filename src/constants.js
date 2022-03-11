@@ -2406,7 +2406,7 @@ export const columnsFees = [
   },
   {
     title: 'Min. Withraw Amt.',
-    dataIndex: 'min_wihtdraw_amount',
+    dataIndex: 'min_withdraw_amount',
   },
   {
     title: 'conformations',
